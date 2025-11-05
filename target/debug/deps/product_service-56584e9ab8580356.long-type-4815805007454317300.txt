@@ -1,0 +1,2 @@
+fn() -> impl std::future::Future<Output = axum::Json<models::product::Product>> {get_all_products}
+fn() -> impl std::future::Future<Output = axum::Json<models::product::Product>> {get_all_products}: Handler<_, _>

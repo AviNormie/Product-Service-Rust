@@ -1,0 +1,1 @@
+Serve<tokio::net::TcpListener, Router<Arc<std::sync::Mutex<Vec<models::product::Product>>>>, _>

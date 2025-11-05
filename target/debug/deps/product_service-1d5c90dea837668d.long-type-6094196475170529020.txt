@@ -1,0 +1,2 @@
+fn(axum::extract::Path<Uuid>, State<Arc<std::sync::Mutex<Vec<models::product::Product>>>>, Json<UpdateProduct>) -> impl std::future::Future<Output = Json<std::option::Option<models::product::Product>>> {patch_product}
+fn(axum::extract::Path<Uuid>, State<Arc<std::sync::Mutex<Vec<models::product::Product>>>>, Json<UpdateProduct>) -> impl std::future::Future<Output = Json<std::option::Option<models::product::Product>>> {patch_product}: Handler<_, _>

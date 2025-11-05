@@ -1,0 +1,1 @@
+fn(axum::extract::Path<Uuid>, State<Arc<std::sync::Mutex<Vec<models::product::Product>>>>, Json<CreateProduct>) -> impl std::future::Future<Output = Json<models::product::Product>> {update_product}
